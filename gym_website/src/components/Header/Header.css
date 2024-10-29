@@ -1,0 +1,43 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header img {
+    height: 3rem;
+    width: 10rem;
+}
+
+/* NavBar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.nav-links a:hover {
+    color: var(--orange);
+}
+
+
